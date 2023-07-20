@@ -317,10 +317,58 @@
             ></li>
           </ul>
         </div>
+        <div class="subscribe"
+          ><p class="social-media">Subscribe</p>
+          <form class="form">
+            <label class="form-label">
+              <input class="form-input" type="text" name="email" placeholder="E-mail" />
+            </label>
+            <button class="btn-foot" type="submit"
+              >Subscribe<svg class="svgg" width="24" height="20">
+                <use href="./images/icons.svg#icon-send"></use></svg></button>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal><div class="modal"><button class="modal-btn" type="button" data-modal-close><svg class="modal-icon" width="8" height="8"><use href="./images/icons.svg#icon-close-x"></use></svg></button></div>
-  </div>
-      <script src="./images/js/modal.js"></script>
+    <div class="backdrop is-hidden" data-modal
+      ><div class="modal"
+        ><button class="modal-btn" type="button" data-modal-close
+          ><svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-x"></use></svg></button
+      >
+    <form class="form">
+      <label class="form-label">
+        Name
+        <input
+          class="form-input"
+          type="text"
+          name="username"
+        />
+      </label>
+    
+      <label class="form-label">
+        Phone
+        <input
+          class="form-input"
+          type="tel"
+          name="phone" 
+        />
+      </label>
+      <label class="form-label">
+        Email
+        <input
+          class="form-input"
+          type="email"
+          name="e-mail"
+        />
+      </label>
+      <label>
+        Comment
+        <textarea name="feedback" rows="5" placeholder="Text input"></textarea>
+      </label>
+   <button class="btn-foot" type="submit">Send</button>
+    </form></div>
+    </div>
+    <script src="./images/js/modal.js"></script>
   </body>
 </html>
