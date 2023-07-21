@@ -638,6 +638,9 @@ margin-bottom: 4px;
 .svg-modal-icon{
 position: relative;
 }
+.form-footer{
+  display: flex;
+}
 .form-input-foot{
   width: 264px;
 height: 40px;
