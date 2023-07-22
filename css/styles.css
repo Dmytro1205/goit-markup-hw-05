@@ -738,7 +738,6 @@ flex-direction: column;
 align-items: flex-start;
 gap: 8px;
 border-radius: 4px;
-
 }
 .span-checkbox{
   width: 16px;
@@ -751,7 +750,10 @@ border-radius: 4px;
   justify-content: center;
   fill: transparent;
 }
-.form-input-checkbox:checked + .form-label + .span-checkbox{
+.checkbox-link{
+  color: var(--cl--btn);
+}
+.form-input-checkbox:checked + .span-checkbox{
   background-color:var(--cl-link);
   border: none;
   fill: var(--bg-team)
