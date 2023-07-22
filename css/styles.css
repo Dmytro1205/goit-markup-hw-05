@@ -653,7 +653,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-checkbox-icon{
   width: 16px;
-height: 16px;
+  height: 16px;
   border-radius: 2px;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 }
@@ -752,12 +752,13 @@ border-radius: 4px;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  
 }
 .checkbox-link{
   color: var(--cl--btn);
 }
-.form-input-checkbox:checked + .span-checkbox{
+.form-input-checkbox:checked + .form-label .span-checkbox{
   background-color:var(--cl-link);
   border: none;
-  fill: var(--bg-team)
+  fill: var(--bg-team);
 }
